@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>the  libaray encapsulates several extension methods that enhance the functionality of IQueryable collections in Entity Framework Core. These methods streamline common operations such as pagination, filtering, and counting, providing developers with convenient tools to manage and manipulate data queries efficiently.</Description>
+    <PackageIcon>OpenOffice Writer-01.png</PackageIcon>
+    <Company>Ahmed Adel</Company>
+    <Authors>Ahmed Adel</Authors>
+    <PackageId>Pagination.Filtered.Orderable</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="D:\ايقوانات\Apps\OpenOffice Writer-01.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.28" />
+  </ItemGroup>
+
+</Project>
